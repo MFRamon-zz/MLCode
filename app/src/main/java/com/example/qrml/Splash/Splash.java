@@ -6,6 +6,7 @@ import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.qrml.Activities.LoginActivity;
 import com.example.qrml.MainActivity;
 import com.example.qrml.R;
 
@@ -19,7 +20,7 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.splash_layout);
         new Handler().postDelayed(new Runnable(){
             public void run(){
-                Intent intent = new Intent(Splash.this, MainActivity.class);
+                Intent intent = new Intent(Splash.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             };
