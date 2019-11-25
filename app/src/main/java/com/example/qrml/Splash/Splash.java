@@ -7,7 +7,6 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.qrml.Activities.LoginActivity;
-import com.example.qrml.MainActivity;
 import com.example.qrml.R;
 
 public class Splash extends AppCompatActivity {
