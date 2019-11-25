@@ -13,23 +13,22 @@
         android:layout_height="282dp"
         android:adjustViewBounds="true"
         android:contentDescription="@string/app_name"
-        android:src="@drawable/google_logo"
+        android:src="@drawable/placeholder"
         app:layout_constraintBottom_toTopOf="@+id/text_view"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
 
     <TextView
         android:id="@+id/text_view"
         android:layout_width="325dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="340dp"
+        android:layout_marginBottom="284dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textStyle="bold"
-        android:text="Scaneando"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent" />
 
 

@@ -7,8 +7,8 @@
     tools:context=".Activities.LoginActivity">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="205dp"
-        android:layout_height="191dp"
+        android:layout_width="139dp"
+        android:layout_height="130dp"
         android:src="@drawable/app_logo"
         app:layout_constraintBottom_toTopOf="@+id/txtUser"
         app:layout_constraintEnd_toEndOf="parent"

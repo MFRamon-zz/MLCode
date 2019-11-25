@@ -87,6 +87,8 @@ public class ScanActivity extends Base {
             @Override
             public void onSuccess(List<FirebaseVisionBarcode> firebaseVisionBarcodes) {
                 mTextView.setText(getInfoFromBarcode(firebaseVisionBarcodes));
+                Intent intent = new Intent(getApplicationContext(),LocationActivity.class);
+                startActivity(intent);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
