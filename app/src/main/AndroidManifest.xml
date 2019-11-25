@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.ScanActivity"></activity>
+        <activity android:name=".Activities.LocationActivity"></activity>
+        <activity android:name=".Activities.ScanActivity" />
         <activity android:name=".Activities.LoginActivity" />
         <activity
             android:name=".Splash.Splash"
