@@ -12,7 +12,7 @@
         android:layout_width="186dp"
         android:layout_height="177dp"
         android:layout_marginTop="252dp"
-        android:src="@drawable/google_logo"
+        android:src="@drawable/app_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"

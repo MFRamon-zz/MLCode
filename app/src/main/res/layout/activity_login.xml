@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".Activities.LoginActivity">
 
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="205dp"
+        android:layout_height="191dp"
+        android:src="@drawable/app_logo"
+        app:layout_constraintBottom_toTopOf="@+id/txtUser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.AppCompatImageView>
+
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="325dp"
         android:layout_height="52dp"
@@ -29,7 +40,7 @@
         android:layout_width="325dp"
         android:layout_height="52dp"
         android:id="@+id/txtPassword"
-        android:hint="Contrasenia"
+        android:hint="Contraseña"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,7 +58,7 @@
         android:id="@+id/btnLogin"
         android:layout_width="314dp"
         android:layout_height="57dp"
-        android:text="Button"
+        android:text="Log me in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
