@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QRML</string>
+    <string name="author">Hecho por Esteban</string>
+    <string name="error_detect">No se detectó</string>
+    <string name="confirm_permission">Esta app necesito el acceso a tus archivos</string>
+    <string name="confirm_camera">This app need to access camera on your device.</string>
+    <string name="action_camera">Camera</string>
+    <string name="action_gallery">Gallery</string>
 </resources>

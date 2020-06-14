@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "459344948642",
+    "firebase_url": "https://silchama-9a12d.firebaseio.com",
+    "project_id": "silchama-9a12d",
+    "storage_bucket": "silchama-9a12d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459344948642:android:e7bbae5d21c048809f56fb",
+        "android_client_info": {
+          "package_name": "com.example.qrml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459344948642-sg8ic86fqff17v2ieunesieqgk63vhp6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBp9mbpY2UFPJI5mvEuD09Vb4i9ygg7CGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459344948642-sg8ic86fqff17v2ieunesieqgk63vhp6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

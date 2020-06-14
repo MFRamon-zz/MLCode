@@ -26,4 +26,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation 'com.google.firebase:firebase-ml-vision:23.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-automl:18.0.1'
+    implementation 'com.google.firebase:firebase-ml-vision-face-model:18.0.0'
+    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:18.0.0'
+    implementation 'com.google.firebase:firebase-ml-model-interpreter:21.0.0'
+
+    //Smart Reply Dependency
+    implementation 'com.google.firebase:firebase-ml-natural-language:21.0.3'
+    implementation 'com.google.firebase:firebase-ml-natural-language-smart-reply-model:20.0.6'
+    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.5'
 }
+
+apply plugin: 'com.google.gms.google-services'
